@@ -10,7 +10,6 @@ interface MenuProps {
 }
 
 const Menus: React.FC<MenuProps> = ({ onClose }) => {
-  console.log('list menu', LIST_MENU);
   return (
     <div className='flex flex-col sm:flex-row font-mono text-xs items-center justify-center h-full'>
       {LIST_MENU.map((menu, index) => {
