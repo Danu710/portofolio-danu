@@ -2,6 +2,9 @@
 import { useEffect } from 'react';
 import Head from 'next/head';
 import AOS from 'aos';
+import Navbar from '@/component/Navbar';
+
+import Homepage from '@/views/Homepage/Homepage';
 
 export default function Home() {
   useEffect(() => {
@@ -23,8 +26,9 @@ export default function Home() {
           content='personal website created by nextjs typescript'
         />
       </Head>
-      {/* <Navbar />
+      <Navbar />
       <Homepage />
+      {/* <Homepage />
       <About />
       <Experience />
       <Work />
