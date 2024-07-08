@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: theme('colors.darkBlue');
+  color: theme('colors.white');
+}
+
+html {
+  scroll-behavior: smooth;
+}
