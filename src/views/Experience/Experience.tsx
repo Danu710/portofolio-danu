@@ -128,7 +128,7 @@ const Experience: React.FC = (): JSX.Element => {
                 <div>
                   <OccupationTitle
                     title='IT Operation'
-                    company='BTPN Syariah'
+                    company='SMK GANESA SATRIA 2'
                     start='June 2022'
                     end='Aug 2022'
                   />
